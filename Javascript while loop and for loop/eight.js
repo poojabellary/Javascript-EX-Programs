@@ -1,6 +1,5 @@
 var i=6;
-var n;
-while(i<n){
+while(i<=60){
     console.log(i)
     i=i+6;
 }
