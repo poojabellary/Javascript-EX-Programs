@@ -1,0 +1,30 @@
+class Account{
+    min_balance=500;
+    open_Account(){
+        console.log(open_Account)
+    }
+    deposite_Amount(){
+        console.log(deposite_Amount)
+    }
+    get_statement(){
+        console.log(get_statement)
+    }
+    get_balance(){
+        console.log(get_balance)
+    }
+    withdrawal_Account(){
+        console.log(withdrawal_Account)
+    }
+    close_Account(){
+        console.log(close_Account)
+    }
+}
+    let a1=new Account();
+    console.log(a1)
+    console.log(a1.min_balance)
+    console.log(a1.open_Account)
+    console.log(a1.deposite_Amount)
+    console.log(a1.get_balance)
+    console.log(a1.get_statement)
+    console.log(a1.withdrawal_Account)
+    console.log(a1.close_Account)
